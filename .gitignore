@@ -1,0 +1,34 @@
+# OS / Editor junk
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# Python virtualenvs
+venv/
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+
+# DBT
+dbt/target/
+dbt/logs/
+dbt/profiles/.user.yml
+dbt_profiles/.user.yml
+
+# Postgres / pgAdmin data
+postgres_data/
+pgadmin_data/
+
+# Superset
+superset_home/
+superset/
+# (except your exported dashboard JSON file)
+!itsm_dashboard.json
+
+# Data dumps
+data/*.csv
+
+# Project structure files
+project_structure.txt

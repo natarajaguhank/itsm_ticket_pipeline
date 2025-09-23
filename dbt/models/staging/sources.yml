@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: itsm_db      # this is the schema in Postgres
+    database: itsm_db  # your Postgres database name
+    schema: public     # replace with your schema if different
+    tables:
+      - name: itsm_tickets_raw
